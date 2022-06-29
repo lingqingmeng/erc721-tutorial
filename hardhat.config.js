@@ -8,7 +8,7 @@ require("@nomiclabs/hardhat-ethers");
 const { ALCHEMY_HTTPS, PRIVATE_KEY } = process.env;
 
 module.exports = {
-   solidity: "0.7.3",
+   solidity: "0.8.4",
    defaultNetwork: "goerli",
    networks: {
       hardhat: {},
